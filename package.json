@@ -1,0 +1,14 @@
+{
+  "name": "iptv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "all": "concurrently \"cd frontend && npm run build\"  \"cd backend && npm start\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
