@@ -2,8 +2,12 @@
   "name": "iptv",
   "version": "1.0.0",
   "main": "index.js",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
-    "all": "concurrently \"cd frontend && npm run build\"  \"cd backend && npm start\" "
+    "all": "concurrently \"cd frontend && npm run dev\"  \"cd backend && npm start\" "
   },
   "author": "",
   "license": "ISC",
